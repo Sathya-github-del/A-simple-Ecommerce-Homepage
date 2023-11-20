@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+}
+
+body {}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 13px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.10rem;
+}
+
+input[type="text"] {
+    width: 550px;
+    padding: 8px 20px 10px;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+}
+
+.navmenu {
+    margin-left: 250px;
+}
+
+.container {
+    width: 150vmin;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    top: 50%;
+    left: 35%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 14s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.outimg img {
+    position: relative;
+    left: 80%;
+    width: 250px;
+}
+
+
+.tile {
+    width: 290px;
+    height: 302px;
+    display: inline-block;
+    position: relative;
+    left: 8%;
+}
+
+.tile1 {
+    padding-top: 150px;
+
+}
+
+.tile1 .caption {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.butshop button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butshop button:hover {
+    background-color: gray;
+}
+
+.tile2 {
+    padding-top: 10px;
+}
+
+.left {
+    margin-left: -190px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blackBarTitle3 {
+    width: 98.7vw;
+    height: 45px;
+    background-color: black;
+}
+
+#blackBarTitle3 p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+#greyboxTitle4 {
+    width: 98.7vw;
+    height: 200px;
+    background-color: gray;
+}
+
+.foottile p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.foottile a {
+    text-decoration: none;
+}
+
+
